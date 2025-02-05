@@ -5,9 +5,11 @@ import axios from "axios"
 
 
 const Home = () => {
-const CheckOutHandler = async ()=>{
+const CheckOutHandler = async (amount)=>{
 
-  const {} = await axios.post("http://")
+  const {data} = await axios.post("http://localhost:4000/api/checkout",{
+    amount
+  })
 }
 
   return (
