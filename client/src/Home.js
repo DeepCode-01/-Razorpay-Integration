@@ -10,6 +10,7 @@ const CheckOutHandler = async (amount)=>{
   const {data} = await axios.post("http://localhost:4000/api/checkout",{
     amount
   })
+  console.log(data)
 }
 
   return (

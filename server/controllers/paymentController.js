@@ -16,3 +16,11 @@ export const checkOut = async (req,res)=>{
         order
      })
 }
+
+export const paymentvarification = async (req,res)=>{
+
+     res.status(200).json({
+        success:true,
+        order
+     })
+}
